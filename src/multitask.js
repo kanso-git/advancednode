@@ -1,5 +1,5 @@
 // by default the size is 4
-process.env.UV_THREADPOOL_SIZE =5;
+process.env.UV_THREADPOOL_SIZE = 4;
 
 const https = require('https');
 const crypto = require('crypto');
