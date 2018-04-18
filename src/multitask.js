@@ -13,7 +13,7 @@ function doRequest(){
     https.request(URL, res=>{
         res.on('data', () =>{});
         res.on('end',()=>{
-            console.log(Date.now() - start);
+            console.log('https:',Date.now() - start);
         })
     }).end();
 }
