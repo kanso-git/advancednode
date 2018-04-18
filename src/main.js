@@ -1,1 +1,0 @@
-// only node project with js badi nam
